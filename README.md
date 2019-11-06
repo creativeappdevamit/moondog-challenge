@@ -24,9 +24,10 @@ Terraform script will create following three main resources on GCP
 ### Usage
 - run `terraform plan` to plan your resource deployment.
 - run `terraform apply` to commit to your resource deployment.
-- terraform will create a configuration file for your airflow dag. Run following command from root project:
+- once `terraform apply` will commit the resources to your console project it will also create a configuration file for airflow dag deployment. 
+- Run following command from root project:
 
 ```gsutil -m cp -r airflow/* {composer_dag_bucket value} ``` 
 
->  composer_dag_bucket will be the output of the terraform script ex. ` gs://europe-west2-composer-env-XXX-bucket/dags
+>  {composer_dag_bucket} will be the output of the terraform script ex. ` gs://europe-west2-composer-env-XXX-bucket/dags
 `
