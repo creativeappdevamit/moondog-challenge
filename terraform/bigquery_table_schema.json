@@ -1,0 +1,67 @@
+[
+  {
+    "name": "hash",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "size",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "stripped_size",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "weight",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "number",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "version",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "merkle_root",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "timestamp",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "timestamp_month",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "nonce",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "bits",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "coinbase_param",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "transaction_count",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
