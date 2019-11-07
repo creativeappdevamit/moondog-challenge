@@ -21,7 +21,7 @@ default_dag_args = {
     'weight_rule': 'upstream'
 }
 config_parser = configparser.ConfigParser()
-config_parser.read(os.path.join(os.path.split(__file__)[0], 'config/config_dc.ini'))
+config_parser.read(os.path.join(os.path.split(__file__)[0], 'config/config.ini'))
 config = config_parser['config']
 data_set = config['data_set']
 bucket = config['bucket']
